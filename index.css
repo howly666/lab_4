@@ -1,0 +1,14 @@
+body {
+  margin: 8px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: black;
+  background: white;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}

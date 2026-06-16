@@ -1,0 +1,60 @@
+.App {
+  width: 100%;
+}
+
+fieldset {
+  margin: 8px 0;
+  padding: 10px;
+}
+
+label {
+  display: inline-block;
+  margin: 4px 0;
+}
+
+select,
+input[type="text"],
+input[type="number"] {
+  margin-left: 6px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 2px 4px;
+}
+
+.pagination {
+  margin: 12px 0;
+}
+
+.page-number {
+  margin-right: 12px;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.page-number.active {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.sort-row {
+  margin: 4px 0;
+}
+
+.sort-row span {
+  display: inline-block;
+  width: 80px;
+}
+
+footer {
+  margin-top: 20px;
+}
